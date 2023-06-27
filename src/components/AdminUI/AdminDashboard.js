@@ -73,6 +73,7 @@ const AdminDashboard = () => {
         value={searchQuery}
         onChange={handleSearchChange}
         className="searchInput"
+        data-testid="admin-dashboard"
       />
       {users.length > 0 ? (
         <>
@@ -112,6 +113,8 @@ const AdminDashboard = () => {
               count={Math.ceil(filteredUsers.length / PER_PAGE_ROWS)}
               page={currentPage}
               onChange={handlePageChange}
+              showFirstButton
+              showLastButton
               color="primary"
               shape="circular"
             />

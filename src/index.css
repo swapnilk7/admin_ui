@@ -53,3 +53,22 @@ code {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+@media (max-width: 480px) {
+  .bottomContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 667px) {
+  .bottomContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+}

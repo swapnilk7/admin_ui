@@ -1,0 +1,92 @@
+export const mockData = [
+  {
+    id: "1",
+    name: "Aaron Miles",
+    email: "aaron@mailinator.com",
+    role: "member",
+  },
+  {
+    id: "2",
+    name: "Aishwarya Naik",
+    email: "aishwarya@mailinator.com",
+    role: "member",
+  },
+  {
+    id: "3",
+    name: "Arvind Kumar",
+    email: "arvind@mailinator.com",
+    role: "admin",
+  },
+  {
+    id: "4",
+    name: "Caterina Binotto",
+    email: "caterina@mailinator.com",
+    role: "member",
+  },
+  {
+    id: "5",
+    name: "Chetan Kumar",
+    email: "chetan@mailinator.com",
+    role: "member",
+  },
+  {
+    id: "6",
+    name: "Jim McClain",
+    email: "jim@mailinator.com",
+    role: "member",
+  },
+  {
+    id: "7",
+    name: "Mahaveer Singh",
+    email: "mahaveer@mailinator.com",
+    role: "member",
+  },
+  {
+    id: "8",
+    name: "Rahul Jain",
+    email: "rahul@mailinator.com",
+    role: "admin",
+  },
+  {
+    id: "9",
+    name: "Rizan Khan",
+    email: "rizan@mailinator.com",
+    role: "member",
+  },
+  {
+    id: "10",
+    name: "Sarah Potter",
+    email: "sarah@mailinator.com",
+    role: "admin",
+  },
+  {
+    id: "11",
+    name: "Keshav Muddaiah",
+    email: "keshav@mailinator.com",
+    role: "member",
+  },
+  {
+    id: "12",
+    name: "Nita Ramesh",
+    email: "nita@mailinator.com",
+    role: "member",
+  },
+  {
+    id: "13",
+    name: "Julia Hunstman",
+    email: "julia@mailinator.com",
+    role: "member",
+  },
+  {
+    id: "14",
+    name: "Juan Alonso",
+    email: "juan@mailinator.com",
+    role: "admin",
+  },
+  {
+    id: "15",
+    name: "Gabriel Montoya",
+    email: "gabriel@mailinator.com",
+    role: "admin",
+  },
+];
